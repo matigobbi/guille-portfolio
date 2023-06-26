@@ -4,3 +4,25 @@
   background-color: black;
   margin: 0;
 }
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.name{
+  margin-top: 28px;
+  margin-left: 15px;
+}
+
+.listnav{
+display: flex;
+flex-direction: row;
+
+}
+
+.listnav div{
+  margin-top: 28px;
+  margin-left: 15px;
+}
