@@ -1,8 +1,7 @@
-import Nav from "./Nav.jsx"
-import "./App.css"
+import Nav from "./Nav.jsx";
+import "./App.css";
 
 function Home() {
-  
   return (
     <div className="home">
       <Nav/>
@@ -16,8 +15,7 @@ function Home() {
 
 
     </div>
-    
-  )
+  );
 }
 
-export default Home
+export default Home;
