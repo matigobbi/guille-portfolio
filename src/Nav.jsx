@@ -1,12 +1,12 @@
 function Nav() {
   
   return (
-    <div className="home">
+    <div className="nav">
       <nav>
-        <div>
+        <div className="name">
           Navarre Lopez Visual
         </div>
-        <div>
+        <div className="listnav">
           <div>
             Work
           </div>
