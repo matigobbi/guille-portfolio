@@ -1,12 +1,12 @@
-import Nav from "../components/Nav/Nav.jsx";
+
 import "./App.css";
 
 function Home() {
   return (
     <div className='home'>
-      <Nav />
       <section>
-        <h1>жNavarré-Lopez </h1>
+        <h1 className="moving-name">жNavarré-Lopez </h1>
+        <div className="white-line"></div>
         <p>
           Guille Navarre Lopez is a graphic designer and illustrator based in
           Berlin. His works are focused on art direction, branding, UI,

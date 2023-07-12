@@ -1,0 +1,20 @@
+.nav {
+  background-color: black;
+  color: white;
+  font-size: 1.8rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  margin-right: 28px;
+  margin-left: 18px;
+}
+
+.rigth-nav {
+
+}
+
+.rigth-nav * {
+  margin-left: 18px;
+}

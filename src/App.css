@@ -3,27 +3,25 @@
   text-align: center;
   background-color: black;
   margin: 0;
+  font-family: 'Cairo', sans-serif;
 }
 
-nav {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.name{
-  margin-top: 28px;
-  margin-left: 15px;
+.moving-name{
+  font-size: 200px;
 }
 
 .listnav{
 display: flex;
 flex-direction: row;
-
 }
 
 .listnav div{
   margin-top: 28px;
   margin-left: 15px;
+}
+
+.white-line{
+  height: 1px;
+  background: white;
 }
 
