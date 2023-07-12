@@ -11,10 +11,10 @@
   margin-left: 18px;
 }
 
-.rigth-nav {
-
+nav a {
+  text-decoration: none;
 }
 
-.rigth-nav * {
+.rigth-nav a {
   margin-left: 18px;
 }

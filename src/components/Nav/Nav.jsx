@@ -6,7 +6,7 @@ function Nav() {
   return (
     <div className='home'>
         <nav className='nav'>
-          <div className="left-nav">Navarre Lopez Visual</div>
+          <Link to="/" className="left-nav">Navarre Lopez Visual</Link>
           <div className="rigth-nav">            
             <Link to="work">Work</Link>
             <Link to="about">About</Link>

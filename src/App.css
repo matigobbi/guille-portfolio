@@ -3,12 +3,22 @@
   text-align: center;
   background-color: black;
   margin: 0;
-  font-family: 'Cairo', sans-serif;
+  font-family: 'Cairo', sans-serif;  
+}
+.text {
+  overflow: hidden;
+}
+.moving-name { 
+  font-size: 12rem;
+  animation: scrollText 30s infinite linear;
+  white-space: nowrap;
 }
 
-.moving-name{
-  font-size: 200px;
+@keyframes scrollText {
+  from { transform: translateX(-10%); }
+  to { transform: translateX(-450%); }
 }
+
 
 .listnav{
 display: flex;

@@ -5,7 +5,9 @@ function Home() {
   return (
     <div className='home'>
       <section>
-        <h1 className="moving-name">жNavarré-Lopez </h1>
+        <div className="text">
+          <h1 className="moving-name">GuilleжNavarré-Lopez GuilleжNavarré-Lopez GuilleжNavarré-Lopez GuilleжNavarré-Lopez GuilleжNavarré-Lopez GuilleжNavarré-Lopez</h1>
+        </div>
         <div className="white-line"></div>
         <p>
           Guille Navarre Lopez is a graphic designer and illustrator based in
