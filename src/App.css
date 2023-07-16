@@ -5,29 +5,32 @@
   margin: 0;
   font-family: 'Cairo', sans-serif;  
 }
+
+@font-face {
+  font-family: 'PPNeueMachinaInktrapRegular';
+  src: url('./assets/fonts/PPNeueMachinaInktrapRegular.eot');
+  src: url('./assets/fonts/PPNeueMachinaInktrapRegular.eot') format('embedded-opentype'),
+       url('./assets/fonts/PPNeueMachinaInktrapRegular.woff2') format('woff2'),
+       url('./assets/fonts/PPNeueMachinaInktrapRegular.woff') format('woff'),
+       url('./assets/fonts/PPNeueMachinaInktrapRegular.ttf') format('truetype'),
+       url('./assets/fonts/PPNeueMachinaInktrapRegular.svg#PPNeueMachinaInktrapRegular') format('svg');
+}
+
+
 .text {
   overflow: hidden;
 }
+
 .moving-name { 
-  font-size: 12rem;
-  animation: scrollText 30s infinite linear;
+  line-height: 1.25;
+  font-size: 15rem;
+  animation: scrollText 60s infinite linear;
   white-space: nowrap;
 }
 
 @keyframes scrollText {
-  from { transform: translateX(-10%); }
-  to { transform: translateX(-450%); }
-}
-
-
-.listnav{
-display: flex;
-flex-direction: row;
-}
-
-.listnav div{
-  margin-top: 28px;
-  margin-left: 15px;
+  from { transform: translateX(-100px); }
+  to { transform: translateX(-10000px); }
 }
 
 .white-line{
@@ -35,3 +38,43 @@ flex-direction: row;
   background: white;
 }
 
+.description-container{
+  margin:20px;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  margin: 10px
+}
+
+.description-container p{
+  font-weight: 0;
+  font-size: 3.5rem;
+  line-height: 1.05;
+  text-align:start;
+}
+
+.description-container div{
+  min-width:25vw ;
+}
+
+.posterdesign-container{
+  position: relative;
+  margin-top: 40px;
+  
+}
+.posterdesign-container img:nth-child(1){
+  position:absolute;
+  right: 14%;
+  z-index: 20;
+  }
+
+.posterdesign-container img:nth-child(2){
+position:absolute;
+right: 11%;
+z-index: 10;
+}
+
+.posterdesign-container img:nth-child(3){
+position:absolute;
+right: 6%;
+}

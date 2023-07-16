@@ -9,6 +9,7 @@
   margin-bottom: 12px;
   margin-right: 28px;
   margin-left: 18px;
+  line-height: 1.2;
 }
 
 nav a {
@@ -16,5 +17,5 @@ nav a {
 }
 
 .rigth-nav a {
-  margin-left: 18px;
+  margin-left: 50px;
 }
