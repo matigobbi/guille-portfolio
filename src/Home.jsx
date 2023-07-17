@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 
 import "./App.css";
 
@@ -5,8 +6,8 @@ function Home() {
   return (
     <div className='home'>
       <section>
-        <div className="text">
-          <h1 className="moving-name">GuilleжNavarré-Lopez GuilleжNavarré-Lopez GuilleжNavarré-Lopez GuilleжNavarré-Lopez GuilleжNavarré-Lopez GuilleжNavarré-Lopez</h1>
+        <div className="text moving-name-container">
+          <h1 className="moving-name glitch">GuilleжNavarré-Lopez GuilleжNavarré-Lopez GuilleжNavarré-Lopez GuilleжNavarré-Lopez GuilleжNavarré-Lopez GuilleжNavarré-Lopez</h1>
         </div>
         <div className="white-line"></div>
         <div className="description-container">
@@ -20,9 +21,9 @@ function Home() {
           <div> </div>
         </div>
         <div className="posterdesign-container">
-          <img src="../public/GREECE-IG-SQUARE.png" alt="poster1" />
-          <img src="../public/EGYPT-IG-SQUARE.png" alt="poster1" />
-          <img src="../public/TBILISI-IG-SQUARE.png" alt="poster1" />
+          <img src="GREECE-IG-SQUARE.png" alt="poster1" />
+          <img src="EGYPT-IG-SQUARE.png" alt="poster1" />
+          <img src="TBILISI-IG-SQUARE.png" alt="poster1" />
         </div>
       </section>
     </div>

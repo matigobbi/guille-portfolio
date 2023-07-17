@@ -3,7 +3,7 @@
   text-align: center;
   background-color: black;
   margin: 0;
-  font-family: 'Cairo', sans-serif;  
+  font-family: "PPNeueMachinaInktrapRegular",'Cairo', sans-serif;  
 }
 
 @font-face {
@@ -21,16 +21,19 @@
   overflow: hidden;
 }
 
+
 .moving-name { 
   line-height: 1.25;
-  font-size: 15rem;
+  font-size: 13rem;
   animation: scrollText 60s infinite linear;
   white-space: nowrap;
 }
 
 @keyframes scrollText {
-  from { transform: translateX(-100px); }
-  to { transform: translateX(-10000px); }
+  from { transform: translateX(-100px); 
+  }
+  to { transform: translateX(-10000px); 
+  }
 }
 
 .white-line{
@@ -48,7 +51,7 @@
 
 .description-container p{
   font-weight: 0;
-  font-size: 3.5rem;
+  font-size: 3rem;
   line-height: 1.05;
   text-align:start;
 }
@@ -65,7 +68,8 @@
 .posterdesign-container img:nth-child(1){
   position:absolute;
   right: 14%;
-  z-index: 20;
+  z-index: 0;
+  margin: none;
   }
 
 .posterdesign-container img:nth-child(2){
@@ -77,4 +81,5 @@ z-index: 10;
 .posterdesign-container img:nth-child(3){
 position:absolute;
 right: 6%;
+z-index: 0;
 }

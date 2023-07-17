@@ -1,0 +1,29 @@
+.acordeon {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 20px;
+  cursor: pointer;
+  text-align: left;
+  font-size: 7rem;
+  border-bottom:white 1px ;
+}
+
+.description {
+  font-size: 1.5rem;
+  padding: 0 50px 20px 50px;
+  overflow: hidden;
+  text-align: left;
+}
+
+.active{
+  display: none;
+}
+
+.active-arrow{
+  position: absolute;
+  bottom: -100%;
+  left: 98%;
+}
