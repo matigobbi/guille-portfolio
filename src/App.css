@@ -61,8 +61,8 @@
 }
 
 .posterdesign-container{
-  position: relative;
-  margin-top: 40px;
+  position:relative;
+  top: 40px;
   
 }
 .posterdesign-container img:nth-child(1){

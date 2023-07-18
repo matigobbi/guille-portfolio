@@ -25,6 +25,7 @@ function Home() {
           <img src="EGYPT-IG-SQUARE.png" alt="poster1" />
           <img src="TBILISI-IG-SQUARE.png" alt="poster1" />
         </div>
+        <div> Poster Design</div>
       </section>
     </div>
   );
