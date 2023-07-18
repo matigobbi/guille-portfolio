@@ -13,7 +13,8 @@ const toggleCollapsed = (id) => {
   const dataCopy = [...data];
 
   dataCopy.forEach((data) => {
-    // Find the selected task and update task's `isDone` property,
+   // para que se abra solo uno
+    data.isCollapsed = true
     if (data._id === id) {
       data.isCollapsed = data.isCollapsed ? false : true;      
     }
