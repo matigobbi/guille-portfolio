@@ -14,9 +14,12 @@ const toggleCollapsed = (id) => {
 
   dataCopy.forEach((data) => {
    // para que se abra solo uno
-    data.isCollapsed = true
+
+    
     if (data._id === id) {
       data.isCollapsed = data.isCollapsed ? false : true;      
+    } else {
+      data.isCollapsed = true
     }
     setData(dataCopy);
   }); 
