@@ -6,11 +6,14 @@ function Home() {
   return (
     <div className='home'>
       <section>
-        <div className="text moving-name-container">
-          <h1 className="moving-name glitch">GuilleжNavarré-Lopez GuilleжNavarré-Lopez GuilleжNavarré-Lopez GuilleжNavarré-Lopez GuilleжNavarré-Lopez GuilleжNavarré-Lopez</h1>
+        <div className='text moving-name-container'>
+          <h1 className='moving-name glitch'>
+            GuilleжNavarré-Lopez GuilleжNavarré-Lopez GuilleжNavarré-Lopez
+            GuilleжNavarré-Lopez GuilleжNavarré-Lopez GuilleжNavarré-Lopez
+          </h1>
         </div>
-        <div className="white-line"></div>
-        <div className="description-container">
+        <div className='white-line'></div>
+        <div className='description-container'>
           <p>
             Guille Navarre Lopez is a graphic designer and illustrator based in
             Berlin. His works are focused on art direction, branding, UI,
@@ -20,10 +23,10 @@ function Home() {
           </p>
           <div> </div>
         </div>
-        <div className="posterdesign-container">
-          <img src="GREECE-IG-SQUARE.png" alt="poster1" />
-          <img src="EGYPT-IG-SQUARE.png" alt="poster1" />
-          <img src="TBILISI-IG-SQUARE.png" alt="poster1" />
+        <div className='posterdesign-container'>
+          <img src='GREECE-IG-SQUARE.png' alt='poster1' />
+          <img src='EGYPT-IG-SQUARE.png' alt='poster1' />
+          <img src='TBILISI-IG-SQUARE.png' alt='poster1' />
         </div>
       </section>
     </div>
