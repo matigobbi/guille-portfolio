@@ -17,7 +17,7 @@
 }
 
 
-.text {
+.text-home {
   overflow: hidden;
 }
 
@@ -63,23 +63,32 @@
 .posterdesign-container{
   position:relative;
   top: 40px;
-  
+  height: 100vh;
 }
 .posterdesign-container img:nth-child(1){
   position:absolute;
+  width: 355px;
+  height: 473px;
   right: 14%;
-  z-index: 0;
+  z-index: 20;
   margin: none;
+  background: transparent;
   }
 
 .posterdesign-container img:nth-child(2){
 position:absolute;
+width: 355px;
+height: 473px;
 right: 11%;
 z-index: 10;
+background: transparent;
 }
 
 .posterdesign-container img:nth-child(3){
 position:absolute;
+width: 355px;
+height: 473px;
 right: 6%;
 z-index: 0;
+background: transparent;
 }

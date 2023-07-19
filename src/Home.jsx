@@ -6,8 +6,8 @@ function Home() {
   return (
     <div className='home'>
       <section>
-        <div className='text moving-name-container'>
-          <h1 className='moving-name glitch'>
+        <div className='text-home moving-name-container'>
+          <h1 className='moving-name'>
             GuilleжNavarré-Lopez GuilleжNavarré-Lopez GuilleжNavarré-Lopez
             GuilleжNavarré-Lopez GuilleжNavarré-Lopez GuilleжNavarré-Lopez
           </h1>
@@ -27,6 +27,7 @@ function Home() {
           <img src='GREECE-IG-SQUARE.png' alt='poster1' />
           <img src='EGYPT-IG-SQUARE.png' alt='poster1' />
           <img src='TBILISI-IG-SQUARE.png' alt='poster1' />
+          <div className=''> Poster Design</div>
         </div>
         <div className='posterdesign-text'> Poster Design</div>
       </section>
