@@ -12,7 +12,7 @@ export const About = () => {
           <div className='imageContainer'>
             <div className='imageText'>picture of me</div>
           </div>
-          <div className='text'>
+          <div className='text-about'>
             <p className='description-about'>
               I'm Guille, a restless visual maker born in Zárate, Argentina and
               currently based in Berlin. Since childhood, I have been fascinated
