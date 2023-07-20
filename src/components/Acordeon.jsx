@@ -1,23 +1,36 @@
 /* eslint-disable react/prop-types */
-import "./Acordeon.css"
-
 export const Acordeon = ({data, toggleCollapsed}) => {
 
 return (
   <>
-    <div className="acordeon" onClick={()=> {toggleCollapsed(data._id)}}>
-      <div>{data.name}</div>
-      <img src="deplegable.png" alt="deplegable" className={` ${!data.isCollapsed ? "active-arrow" : ""}`}/>
+    <div className="container-name-acordeon" onClick={()=> {toggleCollapsed(data._id)}}>
+    {data._id=="3a" ? 
+      <div className="name"><span>{data.name[0]}</span><span>{data.name[1]}</span><span>{data.name[2]}</span> 
+      </div>
+      : <>{data.name} </>}
+      <img src="images/deplegable.png" alt="deplegable" className={` ${!data.isCollapsed ? "active-arrow" : ""}`}/>
 
     </div>
       <div className={`description ${data.isCollapsed ? "active" : ""}`} >
-      {data._id=="3a" ? 
-        <div className="posterdesign-container a3">
-          <img src="GREECE-IG-SQUARE.png" alt="poster1" />
-          <img src="EGYPT-IG-SQUARE.png" alt="poster1" />
-          <img src="TBILISI-IG-SQUARE.png" alt="poster1" />
+        {data._id=="3a" ? 
+        <div className="a3">
+          <div className="posterdesign-container">
+            <img src="images/GREECE-IG-SQUARE.png" alt="poster1" />
+            <img src="images/EGYPT-IG-SQUARE.png" alt="poster1" />
+            <img src="images/TBILISI-IG-SQUARE.png" alt="poster1" />
+          </div>
+          <div  className="container-otoñal">
+            <div className="container-texto-otoñal">
+              <div className="white-line-otoñal"></div>
+              <p>Cover Art</p>
+              <p>indie</p>
+              <p>Argentina, 2020</p>
+              <p className="white-line-otoñal"></p>
+            </div>
+            <img  src="images/otonal.png" alt="otoñal" className="img-otoñal" />
+          </div>
         </div>
-      : <></>}
+        : <>{data.description} </>}
       </div>
     <div className="white-line"></div>
   </>

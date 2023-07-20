@@ -24,9 +24,9 @@ function Home() {
           <div> </div>
         </div>
         <div className='posterdesign-container'>
-          <img src='GREECE-IG-SQUARE.png' alt='poster1' />
-          <img src='EGYPT-IG-SQUARE.png' alt='poster1' />
-          <img src='TBILISI-IG-SQUARE.png' alt='poster1' />
+          <img src='images/GREECE-IG-SQUARE.png' alt='poster1' />
+          <img src='images/EGYPT-IG-SQUARE.png' alt='poster1' />
+          <img src='images/TBILISI-IG-SQUARE.png' alt='poster1' />
           <div className=''> Poster Design</div>
         </div>
         <div className='posterdesign-text'> Poster Design</div>

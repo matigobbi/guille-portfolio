@@ -56,14 +56,12 @@
   text-align:start;
 }
 
-.description-container div{
-  min-width:25vw ;
-}
+
 
 .posterdesign-container{
   position:relative;
+  height: 533px;
   top: 40px;
-  height: 100vh;
 }
 .posterdesign-container img:nth-child(1){
   position:absolute;

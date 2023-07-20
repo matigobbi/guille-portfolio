@@ -13,7 +13,7 @@
   },
   {
      "_id":"3a",
-     "name":"DesingxMusic",
+     "name":["Desing", "x","Music"],
      "description":"Lorem Ipsum",
      "isCollapsed":true
   },

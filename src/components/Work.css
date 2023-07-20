@@ -1,4 +1,4 @@
-.acordeon {
+.container-name-acordeon {
   display: flex;
   position: relative;
   flex-direction: row;
@@ -17,13 +17,56 @@
   overflow: hidden;
   text-align: left;
 }
+/*¨place for heigth for sections */
+.a3 {
+  height: 4000px;
+}
 
+
+.container-name-acordeon img{
+  transition: transform 0.3s ease 0s;
+}
+
+.active-arrow{
+  transform: rotate(180deg);
+
+}
 .active{
   display: none;
 }
 
-.active-arrow{
-  position: absolute;
-  bottom: -100%;
-  left: 98%;
+.name span:nth-child(1){
+  color: #585858;
 }
+
+.name span:nth-child(2){
+  color: #D68000;
+}
+
+.white-line-otoñal{
+  width: 420px;
+  height: 1px;
+  background: white;
+}
+.container-otoñal{
+  position: relative;
+  margin-top: 50px;
+  width: 100%;
+  height: 492px;
+}
+.container-texto-otoñal{
+  position: absolute;
+  right: 10%;
+  top: 20%;
+}
+
+.container-texto-otoñal p{
+  margin-top: 60px;
+}
+.img-otoñal{
+  position: absolute;
+  left :0;
+  width: 686px;
+  height: 492px;
+}
+
