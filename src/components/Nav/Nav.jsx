@@ -5,9 +5,13 @@ function Nav() {
   return (
     <div className='home'>
       <nav className='nav'>
-        <Link to='/' className='left-nav'>
-          Navarre Lopez Visual
+        <div className="left-nav">
+        <Link to='/' className='stack' style={{"--stacks": "3"}}>
+          <span style={{"--index": "0"}}>Navarre Lopez Visual</span>
+          <span style={{"--index": "1"}}>Navarre Lopez Visual</span>
+          <span style={{"--index": "2"}}>Navarre Lopez Visual</span>
         </Link>
+        </div>
         <div className='rigth-nav'>
           <Link to='work'>Work</Link>
           <Link to='about'>About</Link>

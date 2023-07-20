@@ -25,7 +25,7 @@
 .moving-name { 
   line-height: 1.25;
   font-size: 13rem;
-  animation: scrollText 60s infinite linear;
+  animation: scrollText 75s infinite linear;
   white-space: nowrap;
 }
 
