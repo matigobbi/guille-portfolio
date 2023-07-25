@@ -22,12 +22,16 @@ return (
           <div  className="container-otoñal">
             <div className="container-texto-otoñal">
               <div className="white-line-otoñal"></div>
-              <p>Cover Art</p>
-              <p>indie</p>
-              <p>Argentina, 2020</p>
+              <p>Cover Art,</p>
+              <p className="italic">indie</p>
+              <p className="italic">Argentina, 2020</p>
               <p className="white-line-otoñal"></p>
             </div>
             <img  src="images/otonal.png" alt="otoñal" className="img-otoñal" />
+          </div>
+          <div className="container-discos">
+            <img src="./images/disco1.png" alt="anxiety therapy" />
+            <img src="./images/disco2.png" alt="anxiety therapy2" />
           </div>
         </div>
         : <>{data.description} </>}

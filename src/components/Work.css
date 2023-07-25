@@ -22,7 +22,6 @@
   height: 2000px;
 }
 
-
 .container-name-acordeon img{
   transition: transform 0.3s ease 0s;
 }
@@ -61,12 +60,48 @@
 }
 
 .container-texto-otoñal p{
-  margin-top: 60px;
+  margin-top: 50px;
 }
+
 .img-otoñal{
   position: absolute;
   left :0;
-  width: 686px;
-  height: 492px;
+  width: 600px;
+  height: 450px;
+  background: transparent;
 }
 
+.italic{
+  font-style: italic;
+  font-weight:lighter;
+}
+.container-discos{
+}
+
+.container-discos img{
+position: absolute;
+width: 522px;
+height: 523px;
+background: transparent;
+}
+
+.container-discos img:nth-child(1){
+z-index: 1;
+right: 250px;
+}
+
+.container-discos img:nth-child(2){
+  right: 120px;
+}
+
+  .container-discos img:hover{
+    
+    animation-name: rotate; 
+    animation-duration: 2s; 
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+  @keyframes rotate {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
