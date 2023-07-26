@@ -14,9 +14,9 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       <Nav />
       <Routes>
         <Route path='/' element={<Home />} />
+        <Route path='/work' element={<Work />} />
         <Route path='/about' element={<About />} />
         <Route path='/contact' element={<Contact />} />
-        <Route path='/work' element={<Work />} />
       </Routes>
     </Router>
   </React.StrictMode>
