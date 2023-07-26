@@ -4,7 +4,7 @@ import "./Contact.css";
 
 export const Contact = () => {
   const [formData, setFormData] = useState({
-    firstName: "",
+    name: "",
     lastName: "",
     email: "",
     subject: "",
@@ -12,21 +12,23 @@ export const Contact = () => {
   });
 
   const handleChange = (e) => {
-    const { firstName, value } = e.target;
+    const { name, value } = e.target;
     setFormData((prevState) => ({
       ...prevState,
-      [firstName]: value,
+      [name]: value,
     }));
   };
 
   const handleSubmit = (e) => {
+    alert("Your message was sent. I'll reach out to you as soon as possible!");
     e.preventDefault();
     //usar socket.io
+    //o emailjs pero necesito que guille cree su cuenta
     //leer en el portal de ironhack
     console.log(formData);
 
     setFormData({
-      firstName: "",
+      name: "",
       lastName: "",
       email: "",
       subject: "",
@@ -36,49 +38,53 @@ export const Contact = () => {
 
   return (
     <div className='contact-container'>
-      <h1>Say Hello!</h1>
+      <h1 className='say-hello'>Say Hello!</h1>
       <form onSubmit={handleSubmit}>
-        <div>
-          <label htmlFor='firstName'></label>
-          <input
-            type='text'
-            id='firstName'
-            name='firstName'
-            value={formData.firstName}
-            onChange={handleChange}
-            placeholder='First Name'
-          />
-        </div>
-        <label htmlFor='lastName'></label>
-        <input
-          type='text'
-          id='lastName'
-          name='lastName'
-          value={formData.lastName}
-          onChange={handleChange}
-          placeholder='Last Name'
-        />
-        <div>
-          <label htmlFor='email'></label>
-          <input
-            type='email'
-            id='email'
-            name='email'
-            value={formData.email}
-            onChange={handleChange}
-            placeholder='Email'
-          />
-        </div>
-        <div>
-          <label htmlFor='subject'></label>
-          <input
-            type='text'
-            id='subject'
-            name='subject'
-            value={formData.subject}
-            onChange={handleChange}
-            placeholder='Subject'
-          />
+        <div className='form-container'>
+          <div className='form-item'>
+            <label htmlFor='name'></label>
+            <input
+              type='text'
+              id='name'
+              name='name'
+              value={formData.name}
+              onChange={handleChange}
+              placeholder='First Name'
+            />
+          </div>
+          <div className='form-item'>
+            <label htmlFor='lastName'></label>
+            <input
+              type='text'
+              id='lastName'
+              name='lastName'
+              value={formData.lastName}
+              onChange={handleChange}
+              placeholder='Last Name'
+            />
+          </div>
+          <div className='form-item'>
+            <label htmlFor='email'></label>
+            <input
+              type='email'
+              id='email'
+              name='email'
+              value={formData.email}
+              onChange={handleChange}
+              placeholder='Email'
+            />
+          </div>
+          <div className='form-item'>
+            <label htmlFor='subject'></label>
+            <input
+              type='text'
+              id='subject'
+              name='subject'
+              value={formData.subject}
+              onChange={handleChange}
+              placeholder='Subject'
+            />
+          </div>
         </div>
         <div>
           <label htmlFor='message'></label>
