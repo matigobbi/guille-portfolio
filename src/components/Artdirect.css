@@ -1,0 +1,28 @@
+.artdirect img {
+  height: 70vh;
+  width: 100%;
+  margin-top: 30px;
+  object-fit: cover;
+}
+
+.container-borderless{
+  position: relative;
+}
+
+.artdirect-title{
+  font-size: calc((100vw - 4.5rem) / 5);
+  margin-top: 150px;
+  margin-left: 1rem;
+  margin-bottom: -0.18em;
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.borderless{
+  font-size: 3em;
+  position: absolute;
+  bottom: -5px;
+  left: 15px;
+  background: transparent;
+}
