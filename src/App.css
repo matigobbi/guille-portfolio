@@ -56,13 +56,12 @@
   text-align:start;
 }
 
-
-
 .posterdesign-container{
   position:relative;
   height: 533px;
   top: 40px;
 }
+
 .posterdesign-container img:nth-child(1){
   position:absolute;
   width: 355px;
@@ -71,7 +70,7 @@
   z-index: 20;
   margin: none;
   background: transparent;
-  }
+}
 
 .posterdesign-container img:nth-child(2){
 position:absolute;

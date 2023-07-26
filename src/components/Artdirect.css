@@ -1,5 +1,5 @@
 .artdirect img {
-  height: 70vh;
+  height: 65vh;
   width: 100%;
   margin-top: 30px;
   object-fit: cover;
@@ -20,9 +20,21 @@
 }
 
 .borderless{
-  font-size: 3em;
+  font-size: 5em;
   position: absolute;
-  bottom: -5px;
+  bottom: -10px;
   left: 15px;
   background: transparent;
+}
+
+.images-container{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.images-container div{
+  padding: 0px 35px;
+  margin: 10px 5px;
+  border: 1px solid;
 }
