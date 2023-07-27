@@ -3,26 +3,26 @@
   text-align: center;
   background-color: black;
   margin: 0;
-  font-family: "PPNeueMachinaInktrapRegular",'Cairo', sans-serif;  
+  font-family: "PPNeueMachinaInktrapRegular", "Cairo", sans-serif;
 }
 
 @font-face {
-  font-family: 'PPNeueMachinaInktrapRegular';
-  src: url('./assets/fonts/PPNeueMachinaInktrapRegular.eot');
-  src: url('./assets/fonts/PPNeueMachinaInktrapRegular.eot') format('embedded-opentype'),
-       url('./assets/fonts/PPNeueMachinaInktrapRegular.woff2') format('woff2'),
-       url('./assets/fonts/PPNeueMachinaInktrapRegular.woff') format('woff'),
-       url('./assets/fonts/PPNeueMachinaInktrapRegular.ttf') format('truetype'),
-       url('./assets/fonts/PPNeueMachinaInktrapRegular.svg#PPNeueMachinaInktrapRegular') format('svg');
+  font-family: "PPNeueMachinaInktrapRegular";
+  src: url("./assets/fonts/PPNeueMachinaInktrapRegular.eot");
+  src: url("./assets/fonts/PPNeueMachinaInktrapRegular.eot")
+      format("embedded-opentype"),
+    url("./assets/fonts/PPNeueMachinaInktrapRegular.woff2") format("woff2"),
+    url("./assets/fonts/PPNeueMachinaInktrapRegular.woff") format("woff"),
+    url("./assets/fonts/PPNeueMachinaInktrapRegular.ttf") format("truetype"),
+    url("./assets/fonts/PPNeueMachinaInktrapRegular.svg#PPNeueMachinaInktrapRegular")
+      format("svg");
 }
-
 
 .text-home {
   overflow: hidden;
 }
 
-
-.moving-name { 
+.moving-name {
   line-height: 1.25;
   font-size: 13rem;
   animation: scrollText 75s infinite linear;
@@ -30,30 +30,32 @@
 }
 
 @keyframes scrollText {
-  from { transform: translateX(-100px); 
+  from {
+    transform: translateX(-100px);
   }
-  to { transform: translateX(-10000px); 
+  to {
+    transform: translateX(-10000px);
   }
 }
 
-.white-line{
+.white-line {
   height: 1px;
   background: white;
 }
 
-.description-container{
-  margin:20px;
+.description-container {
+  margin: 20px;
   display: flex;
   flex-wrap: nowrap;
   flex-direction: row;
-  margin: 10px
+  margin: 10px;
 }
 
-.description-container p{
+.description-container p {
   font-weight: 0;
   font-size: 3rem;
   line-height: 1.05;
-  text-align:start;
+  text-align: start;
 }
 
 .posterdesign-container{
@@ -81,11 +83,20 @@ z-index: 10;
 background: transparent;
 }
 
-.posterdesign-container img:nth-child(3){
-position:absolute;
-width: 355px;
-height: 473px;
-right: 6%;
-z-index: 0;
-background: transparent;
+.posterdesign-container img:nth-child(2) {
+  position: absolute;
+  width: 355px;
+  height: 473px;
+  right: 11%;
+  z-index: 10;
+  background: transparent;
+}
+
+.posterdesign-container img:nth-child(3) {
+  position: absolute;
+  width: 355px;
+  height: 473px;
+  right: 6%;
+  z-index: 0;
+  background: transparent;
 }
