@@ -36,5 +36,28 @@
 .images-container div{
   padding: 0px 35px;
   margin: 10px 5px;
-  border: 1px solid;
+  border: 1px dotted;
 }
+
+.images-container img{
+  max-height: 380px;
+}
+
+.borderless-2022{
+  position: absolute;
+  left: 0;
+  color: #353535;
+  font-size: calc((100vw - 4.5rem) / 4);
+  background: transparent;
+}
+
+.container-texto-borderless{
+  position: relative;
+  padding-left: 59%;
+  font-size: 1.5rem;
+}
+
+/* .text-container span{
+   z-index: 50;
+
+} */

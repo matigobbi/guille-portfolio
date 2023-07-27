@@ -11,7 +11,6 @@
   margin-right: 28px;
   margin-left: 18px;
   line-height: 1.2;
-  background: var(--background);
 }
 
 nav a {
@@ -87,8 +86,7 @@ nav a {
     top: 49.5%;
     left: 49.5%;
   }
-    text-shadow: none;
-  }
+  
 }
 
 @keyframes glitch {
