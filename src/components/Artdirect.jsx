@@ -13,24 +13,24 @@ export const Artdirect = () => {
       <div className="container-texto-borderless">
         <p className="borderless-2022">2022</p>
           <div className="two-text-container">
-            <div>
+            <p>
               Client <br/>
               AVA Nightclub <br/>
               /Borderless
-            </div>
-            <div>
+            </p>
+            <p>
               Services <br/>
               Art Direction <br/>
               Poster design
-            </div>
+            </p>
           </div>
         <div className="text-container">
-          <span>
+          <p>
            BORDERLESS is an innovative concept connecting underground electronic music scenes worldwide, virtually bringing musicians and crowds together across borders through streaming events and workshops.
-          </span>
-          <span>
+          </p>
+          <p>
             It aims to keep the flow of creativity and inspiration alive, especially during the pandemic, with support from the German administration for media and culture and association with Berlin's AVA Club.
-          </span>
+          </p>
         </div>
       </div>
       <div className="images-container">

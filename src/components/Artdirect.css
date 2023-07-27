@@ -47,17 +47,37 @@
   position: absolute;
   left: 0;
   color: #353535;
-  font-size: calc((100vw - 4.5rem) / 4);
+  font-size: calc((100vw - 4.5rem) / 3.25);
+  overflow: hidden;
+  background: transparent;
+  z-index: 0;
+}
+.two-text-container{
+  display: flex;
+  gap: 120px;
+  padding-bottom: 150px;;
+}
+
+.two-text-container p{
+  text-align: left;
+  line-height: 137.5%; 
+  z-index: 50;
   background: transparent;
 }
 
 .container-texto-borderless{
   position: relative;
+/*   esta propiedad tiene que ser cambiada en celular */
   padding-left: 59%;
   font-size: 1.5rem;
 }
 
-/* .text-container span{
-   z-index: 50;
-
-} */
+.text-container p{
+  line-height: 137.5%; 
+  text-align: left;
+  position: relative;
+  z-index: 100;
+  margin-bottom: 60px;
+  margin-right: 50px;
+  background: transparent;
+}
