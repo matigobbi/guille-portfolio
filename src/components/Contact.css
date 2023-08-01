@@ -11,6 +11,7 @@
 }
 
 .contact-container {
+  background-color: white !important;
   margin: 10 px;
   border-radius: 0;
 }
@@ -27,14 +28,15 @@
 }
 
 input {
-  width: 99%;
+  width: 96%;
   border: 1px solid white;
   box-sizing: border-box;
   margin: 2px;
+  margin-bottom: 8px;
 }
 
 textarea {
-  width: 100%;
+  width: 98%;
   height: 200px;
   border: 1px solid white;
   box-sizing: border-box;
@@ -42,8 +44,13 @@ textarea {
 }
 
 button {
-  cursor: pointer;
-  float: right;
+  cursor: pointer;  
+  margin-left: 89%;
+  padding:10px 40px;
+}
+
+.button-submit{
+  
 }
 
 input:focus,

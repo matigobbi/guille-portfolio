@@ -37,7 +37,7 @@ export const Contact = () => {
   };
 
   return (
-    <div className='contact-container'>
+    <div className='contact-container' >
       <h1 className='say-hello'>Say Hello!</h1>
       <form onSubmit={handleSubmit}>
         <div className='form-container'>
@@ -97,7 +97,7 @@ export const Contact = () => {
             placeholder='Your message'
           />
         </div>
-        <div>
+        <div className="button-submit">
           <button type='submit'>Submit</button>
         </div>
       </form>
