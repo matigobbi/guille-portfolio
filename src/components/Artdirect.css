@@ -10,7 +10,7 @@
 }
 
 .artdirect-title{
-  font-size: calc((100vw - 4.5rem) / 5);
+  font-size: calc((100vw - 4.5rem) / 6.8);
   margin-top: 150px;
   margin-left: 1rem;
   margin-bottom: -0.18em;
@@ -39,12 +39,16 @@
   border: 1px dotted;
 }
 
+.images-container div:hover{
+  border: 2px solid;
+}
 .images-container img{
   max-height: 380px;
 }
 
 .borderless-2022{
   position: absolute;
+  margin: auto;
   left: 0;
   color: #353535;
   font-size: calc((100vw - 4.5rem) / 3.25);
@@ -81,3 +85,17 @@
   margin-right: 50px;
   background: transparent;
 }
+
+.images-container img {
+  filter: url(filters.svg#grayscale);
+  /* Firefox 3.5+ */
+  filter: gray;
+  /* IE6-9 */
+  -webkit-filter: grayscale(1);
+  /* Google Chrome & Safari 6+ */
+}
+.images-container img:hover {
+  filter: none;
+  -webkit-filter: none;
+}
+

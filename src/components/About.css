@@ -1,4 +1,5 @@
-.container {
+.container-about {
+  background-color: black;
   color: white;
   display: flex;
   flex-direction: column;
@@ -7,14 +8,14 @@
   padding: 2rem;
 }
 
-.section {
+.section-about {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   /* width: 100%; */
 }
 
-.sectionTitle {
+.sectionTitle-about {
   font-size: 112px;
   line-height: 57px;
   align-self: flex-start;
@@ -33,7 +34,7 @@
   /*   flex-shrink: 0; */
 }
 
-.content {
+.content-about {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -53,7 +54,7 @@
   background: transparent;
 }
 
-.imageContainer {
+.imageContainer-about {
   background-color: #d9d9d9;
   width: 40%;
   padding-top: 9rem;  
@@ -61,7 +62,7 @@
   padding-left: 0.75rem;
 }
 
-.imageText {
+.imageText-about {
   font-size: 4rem;
   color: white;
   width: 60%;

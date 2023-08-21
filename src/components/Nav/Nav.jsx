@@ -6,10 +6,8 @@ function Nav() {
     <div className='home'>
       <nav className='nav'>
         <div className="left-nav">
-        <Link to='/' className='stack' style={{"--stacks": "3"}}>
-          <span style={{"--index": "0"}}>Navarre Lopez Visual</span>
-          <span style={{"--index": "1"}}>Navarre Lopez Visual</span>
-          <span style={{"--index": "2"}}>Navarre Lopez Visual</span>
+        <Link to='/' className='stack' >
+          <span >Navarre Lopez Visual</span>
         </Link>
         </div>
         <div className='rigth-nav'>

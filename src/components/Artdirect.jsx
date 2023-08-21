@@ -3,7 +3,7 @@ export const Artdirect = () => {
   return (
     <div className="artdirect">
       <div className="artdirect-title">
-        Art Direct
+        Art Direction
       </div>
       <div className='white-line'></div>
       <div className="container-borderless">

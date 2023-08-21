@@ -11,7 +11,8 @@
 }
 
 .contact-container {
-  background-color: white !important;
+  background-color: white;
+  color: black;
   margin: 10 px;
   border-radius: 0;
 }
@@ -29,7 +30,7 @@
 
 input {
   width: 96%;
-  border: 1px solid white;
+  border: 1px solid rgb(0, 0, 0);
   box-sizing: border-box;
   margin: 2px;
   margin-bottom: 8px;
@@ -38,7 +39,7 @@ input {
 textarea {
   width: 98%;
   height: 200px;
-  border: 1px solid white;
+  border: 1px solid rgb(0, 0, 0);
   box-sizing: border-box;
   margin: 2px;
 }

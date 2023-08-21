@@ -1,16 +1,15 @@
-import React from "react";
 import "./About.css";
 
 export const About = () => {
   return (
-    <div className='container'>
-      <div className='section'>
-        <h2 className='sectionTitle'>About me</h2>
+    <div className='container-about'>
+      <div className='section-about'>
+        <h2 className='sectionTitle-about'>About me</h2>
         <hr className='sectionSeparator' />
-        <div className='content'>
+        <div className='content-about'>
           <div className='yearOfBirth'>1989</div>
-          <div className='imageContainer'>
-            <div className='imageText'>picture of me</div>
+          <div className='imageContainer-about'>
+            <div className='imageText-about'>picture of me</div>
           </div>
           <div className='text-about'>
             <p className='description-about'>
