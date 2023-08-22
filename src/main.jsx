@@ -8,6 +8,7 @@ import { Work } from "./components/Work";
 import { About } from "./components/About";
 import { Contact } from "./components/Contact";
 import { Artdirect } from "./components/Artdirect.jsx";
+import { Branding } from "./components/Branding.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -19,6 +20,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         <Route path='/about' element={<About />} />
         <Route path='/contact' element={<Contact />} />
         <Route path='/artdirect' element={<Artdirect />} />
+        <Route path='/branding' element={<Branding />} />
       </Routes>
     </Router>
   </React.StrictMode>
