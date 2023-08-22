@@ -1,0 +1,73 @@
+.container-movementhub img {
+  height: 65vh;
+  width: 100%;
+  margin-top: 30px;
+  object-fit: cover;
+}
+
+.container-movementhub {
+  position: relative;
+}
+
+.branding-title {
+  font-size: calc((100vw - 4.5rem) / 6.8);
+  margin-top: 150px;
+  margin-left: 1rem;
+  margin-bottom: -0.18em;
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.themovementhub {
+  font-size: 5em;
+  position: absolute;
+  bottom: -10px;
+  left: 15px;
+  background: transparent;
+}
+
+.movementhub-2018 {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  color: #353535;
+  font-size: calc((100vw - 4.5rem) / 3.25);
+  overflow: hidden;
+  background: transparent;
+  z-index: 0;
+}
+
+.two-text-hub-container {
+  display: flex;
+  gap: 120px;
+  padding-bottom: 150px;
+}
+
+.two-text-hub-container p {
+  text-align: left;
+  line-height: 137.5%;
+  z-index: 50;
+  background: transparent;
+}
+
+.two-text-hub-container img {
+  position: relative;
+}
+
+.container-texto-movementhub {
+  position: relative;
+  /*   esta propiedad tiene que ser cambiada en celular */
+  padding-left: 59%;
+  font-size: 1.5rem;
+}
+
+.text-container-hub p {
+  line-height: 137.5%;
+  text-align: left;
+  position: relative;
+  z-index: 100;
+  margin-bottom: 60px;
+  margin-right: 50px;
+  background: transparent;
+}
