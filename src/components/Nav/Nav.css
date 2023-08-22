@@ -1,13 +1,9 @@
-.nav * {
-  margin-top: 0;
-  color:white;
-}
 
 .nav {
   position: relative;
   background-color: black;
+  font-size: 23px;
   color: white;
-  font-size: 1.8rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -21,8 +17,17 @@
 nav a {
   text-decoration: none;
   position: relative;
+  margin-top: 0;
+  color:white;
 }
 
+.left-nav span{
+  color: #ADFF00;
+
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
 
 
 .rigth-nav a {

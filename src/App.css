@@ -24,8 +24,8 @@ overflow: hidden;
 
 .text-home {
   overflow: hidden;
-  margin:-180px;
-  margin-bottom: -225px;
+  margin:-240px;
+  margin-bottom: -275px;
 }
 
 .moving-name {
@@ -124,11 +124,11 @@ background: transparent;
   align-items: center;
   min-height: 100px;
 
-  background-color: rgb(78, 5, 5);
+  background-color:  rgba(173, 255, 0, 0.20);
  }
 
  .grid-container .box:hover{
-  background: rgba(173, 255, 0, 0.20);
+  background:#aeff0096;
  }
 
  .grid-container p{

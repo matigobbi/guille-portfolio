@@ -48,7 +48,7 @@
   color: #555555;
   position: absolute;
   z-index: 50;
-  top: 734px;
+  top: 835px;
   left: 0;
   text-align: left;
   background: transparent;
@@ -78,6 +78,7 @@
   z-index: 100;
   background: transparent;
 }
+
 
 .description-about {
   margin-bottom: 0;
