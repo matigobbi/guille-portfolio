@@ -6,6 +6,10 @@ html{
   font-family: "PPNeueMachinaInktrapRegular", "Cairo", sans-serif;
 }
 
+html.white{
+  background-color: white;
+}
+
 @font-face {
   font-family: "PPNeueMachinaInktrapRegular";
   src: url("./assets/fonts/PPNeueMachinaInktrapRegular.eot");
@@ -47,6 +51,11 @@ overflow: hidden;
 .white-line {
   height: 1px;
   background: white;
+}
+
+.black-line {
+  height: 1px;
+  background: black;
 }
 
 .description-container {
@@ -111,11 +120,12 @@ background: transparent;
  */
 
  .grid-container{
+  margin:  5px 10px;
   display: grid;
   font-size: 3.5rem;
   grid-template-columns: repeat(8, 1fr);
   grid-template-rows: repeat(5, 1fr);
-  gap: 75px;
+  gap: 55px;
  }
 
  .grid-container .box{

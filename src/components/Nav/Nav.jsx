@@ -1,10 +1,20 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import "./Nav.css";
 
 function Nav() {
+
+  const location = useLocation();
+  const pathname = location.pathname; // The current URL path
+  
+  if(pathname === "/contact"){
+    document.body.parentElement.classList.add("white")
+  }
+  else{
+    document.body.parentElement.classList.remove("white")
+  }
   return (
-    <div className='home'>
-      <nav className='nav'>
+    <div>
+      <nav className={`nav ${pathname ==="/contact"? "nav-white" : ""}`}>
         <div className="left-nav">
         <Link to='/'>
           <span >Navarre Lopez Visual</span>
@@ -16,7 +26,7 @@ function Nav() {
           <Link to='contact'>Contact</Link>
         </div>
       </nav>
-      <div className='white-line'></div>
+      <div className={` ${pathname ==="/contact"? "black-line" : "white-line"}`}></div>
     </div>
   );
 }

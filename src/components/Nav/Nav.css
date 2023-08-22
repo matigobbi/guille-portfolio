@@ -2,8 +2,8 @@
 .nav {
   position: relative;
   background-color: black;
-  font-size: 23px;
   color: white;
+  font-size: 23px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -14,16 +14,23 @@
   line-height: 1.2;
 }
 
-nav a {
+.nav a {
+  color: white;
   text-decoration: none;
   position: relative;
   margin-top: 0;
-  color:white;
+}  
+
+.nav-white{
+  background-color: rgb(255, 255, 255);
+}
+
+.nav-white a{
+  color: rgb(0, 0, 0);
 }
 
 .left-nav span{
-  color: #ADFF00;
-
+color: #ADFF00;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
@@ -55,4 +62,9 @@ line-height: normal;
 }
 .rigth-nav a:hover::before {
   transform-origin: 100% 0%;
+}
+
+.nav-white .rigth-nav a::before {
+  background: rgb(0, 0, 0);
+  transform-origin: 100 0%;
 }

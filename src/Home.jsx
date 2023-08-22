@@ -1,8 +1,13 @@
 /* eslint-disable react/no-unescaped-entities */
-
+import { useLocation } from "react-router-dom";
 import "./App.css";
 
 function Home() {
+
+  const location = useLocation();
+  const pathname = location.pathname; // The current URL path
+
+
   return (
     <div className='home'>
       <section>
