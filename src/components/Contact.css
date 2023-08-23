@@ -1,32 +1,40 @@
-.say-hello {
-  padding-top: 150px;
-  font-size: 120px;
-  font-weight: normal;
-  text-align: left;
-}
-
-::placeholder {
-  color: white;
-  font-size: 14px;
-}
-
 .contact-container {
   background-color: white;
   color: black;
   margin: 10 px;
   border-radius: 0;
+  position: relative;
+  text-align: left;
+}
+.say-hello {
+  padding-top: 80px;
+  font-size: 120px;
+  font-weight: normal;
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+.contact-line.black-line{
+  margin-top: -80px;
+  margin-bottom: 50px;
 }
 
 .form-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content:space-between;
   gap: 2px;
 }
 
 .form-item {
-  flex: 0 0 calc(50% - 2px);
+  flex: 0 0 calc(50% - 30px);
+  
 }
+
+.form-item input {
+  padding: 10px 10px;  
+}
+
 
 input {
   width: 96%;
@@ -37,25 +45,39 @@ input {
 }
 
 textarea {
-  width: 98%;
+  justify-content: flex-start;
+  width: 88%;
   height: 200px;
   border: 1px solid rgb(0, 0, 0);
   box-sizing: border-box;
   margin: 2px;
+  padding: 10px 10px;  
 }
-
-button {
-  cursor: pointer;  
-  margin-left: 89%;
-  padding:10px 40px;
-}
-
 .button-submit{
-  
+  display: flex;
+  justify-content: flex-end;
+}
+
+.button-submit button {
+  cursor: pointer;  
+  margin-right: 10px;
+  padding:10px 40px;
+  background-color: black;
+  color:white;
+  font-family: "PPNeueMachinaInktrapRegular", "Cairo", sans-serif;
+  font-size: 24px;
+  width: 228px;
+  height: 45px;
 }
 
 input:focus,
 textarea:focus,
 button:focus {
   outline: 3px solid white;
+}
+
+
+::placeholder{
+  color:rgba(0, 0, 0, 0.649);
+  font-family: "PPNeueMachinaInktrapRegular", "Cairo", sans-serif;
 }

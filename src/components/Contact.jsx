@@ -39,6 +39,7 @@ export const Contact = () => {
   return (
     <div className='contact-container' >
       <h1 className='say-hello'>Say Hello!</h1>
+      <div className="black-line contact-line"></div>
       <form onSubmit={handleSubmit}>
         <div className='form-container'>
           <div className='form-item'>
@@ -94,7 +95,7 @@ export const Contact = () => {
             value={formData.message}
             onChange={handleChange}
             rows={4}
-            placeholder='Your message'
+            placeholder='Your message...'
           />
         </div>
         <div className="button-submit">
